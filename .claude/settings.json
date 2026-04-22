@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/aurel/Documents/GitHub/Hydrogen_Us_New/app/routes/**)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git rebase:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://cdn.contentful.com/spaces/7xbaxb2q56jj/environments/master/entries?access_token=yGGCia7N7dHraGe5fsBZkSHsms6QExEKbWy0XdKIn9g&content_type=activePromotions&limit=1\")",
+      "Bash(curl:*)",
+      "Bash(gh run list --limit 5)",
+      "WebFetch(domain:fjelz.share-eu1.hsforms.com)",
+      "Bash(git checkout --ours \"app/routes/\\($locale\\).contacts.tsx\")",
+      "Bash(GIT_EDITOR=true git rebase --continue)",
+      "Bash(grep -rn \"test\\\\|quiz\\\\|typeform\\\\|iframe\" app/components/Homepage*.tsx app/components/home*.tsx)",
+      "Bash(cp app/assets/Test/tab-slide-scopri-materasso-1.jpg tab-slide-scopri-materasso-1.jpg)",
+      "Bash(cp app/assets/Test/tab-slide-scopri-materasso-2.jpg tab-slide-scopri-materasso-2.jpg)",
+      "Bash(cp app/assets/Test/tab-slide-scopri-materasso-3.jpg tab-slide-scopri-materasso-3.jpg)",
+      "Bash(cp app/assets/Test/tab-slide-scopri-materasso-4.jpg tab-slide-scopri-materasso-4.jpg)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\aurel\\Documents\\GitHub\\Hydrogen_Us_New\\promo\\desktop",
+      "c:\\Users\\aurel\\Documents\\GitHub\\Hydrogen_Us_New\\promo\\header"
+    ]
+  }
+}
